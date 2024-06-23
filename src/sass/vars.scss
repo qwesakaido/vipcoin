@@ -1,0 +1,22 @@
+$black: #000000;
+$coral: #ff6767;
+$gradient-black: #F330;
+$gradient-border-black: #FFFFFF00;
+$gradient-transparent: #3B3A3A;
+$grey: #FFFFFF4D;
+$light-grey: #00000080;
+$red: #FF3333;
+$scarlet: #FF333380;
+$shadow-black: #0000004D;
+$shadow-light-black: #15151580;
+$transparent: #00000000;
+$white: #FFFFFF;
+$white-transparent: #FFFFFFB2;
+
+:root {
+   --vipcoin-color-scheme: linear-gradient(176.47deg, #{$red} -36.48%, #{$gradient-black} 95.83%);
+   --background-gradient-color-scheme: radial-gradient(50% 50% at 50% 50%, #{$scarlet} 0%, #{$gradient-black} 100%);
+   --item-shadow-color-scheme: linear-gradient(130.66deg, #{$grey} -19.06%, #{$gradient-black} 31.37%), #{$black};
+   --roadmap-item-border-color-scheme: linear-gradient(145deg, #{$gradient-transparent} 40%, #{$gradient-border-black} 75%);
+   --entertainment-wrapper-gradient-color-scheme: linear-gradient(90deg, #{$transparent} 0%, #{$white} 100%);
+}
